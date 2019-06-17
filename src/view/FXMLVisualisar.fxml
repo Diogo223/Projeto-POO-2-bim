@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLVisualisarController">
+   <children>
+      <TableView fx:id="tabel" layoutX="11.0" layoutY="48.0" prefHeight="291.0" prefWidth="584.0" style="-fx-background-color: lightblue;">
+        <columns>
+            <TableColumn fx:id="Telefone" prefWidth="161.0" text="Telefone" />
+          <TableColumn fx:id="Nome" minWidth="0.0" prefWidth="206.0" text="Nome" />
+          <TableColumn fx:id="mail" prefWidth="265.0" text="E-mail" />
+        </columns>
+         <columnResizePolicy>
+            
+         </columnResizePolicy>
+      </TableView>
+      <Button fx:id="edit" layoutX="141.0" layoutY="361.0" mnemonicParsing="false" onAction="#Editar" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: lightblue;" text="Editar" />
+      <Button fx:id="exc" layoutX="350.0" layoutY="361.0" mnemonicParsing="false" onAction="#Excluir" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: lightblue;" text="Excluir" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#Voltar" style="-fx-background-color: lightblue;" text="Voltar" />
+   </children>
+</AnchorPane>

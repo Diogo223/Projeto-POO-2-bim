@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLCadastroUserController">
+   <children>
+      <Label layoutX="159.0" layoutY="30.0" prefHeight="35.0" prefWidth="225.0" text="Cadastro de Alunos" textFill="#0d00ff">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="110.0" layoutY="126.0" prefHeight="17.0" prefWidth="58.0" text="Telefone" textFill="#2402ff" />
+      <Label layoutX="122.0" layoutY="163.0" text="Nome" textFill="#220af5" />
+      <Label layoutX="122.0" layoutY="221.0" prefHeight="17.0" prefWidth="33.0" text="Email" textFill="#300cfc" />
+      <Button layoutX="200.0" layoutY="275.0" mnemonicParsing="false" onAction="#salvarUser" prefHeight="49.0" prefWidth="91.0" style="-fx-background-color: blue; -fx-border-radius: 25px;" text="Cadastrar" textFill="#f9f9fc" />
+      <TextField fx:id="txtTel" layoutX="197.0" layoutY="122.0" prefHeight="25.0" prefWidth="125.0" />
+      <TextField fx:id="txtNome" layoutX="197.0" layoutY="159.0" prefHeight="25.0" prefWidth="165.0" />
+      <TextField fx:id="txtEmail" layoutX="197.0" layoutY="217.0" prefHeight="25.0" prefWidth="165.0" />
+      <Button layoutX="21.0" layoutY="18.0" mnemonicParsing="false" onAction="#Voltar" style="-fx-background-color: blue;" text="Voltar" textFill="#fffbfb" />
+   </children>
+</AnchorPane>
